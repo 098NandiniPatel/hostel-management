@@ -1,0 +1,53 @@
+.admin-register-form{
+    padding: 4rem;
+    border-radius: 10px;   
+    background: #1d4ed8cc;
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+.admin-register-form h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.admin-register-form input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #000;
+}
+.admin-register-form input:focus{
+    outline: none;
+}
+.auth__btn{
+    background: #000;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #fff !important;
+}
+.admin-register-form p{
+    font-size: 0.9rem;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-align: center; 
+}
+.admin-register-form p a{
+    color: var(--heading-color);
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 500;
+}
+@media(max-width:768px){
+    .admin-register-form{
+        width: 100%;
+        padding: 2rem;
+
+    }
+}

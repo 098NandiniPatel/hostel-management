@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import { Container,Row,Col,Form,FormGroup,Button } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import './login.css'
-import loginImg from '../Asset/login.png'
+import loginImg from '../Asset/login1.png'
 import userIcon from '../Asset/user.png'
 
 const Login = () => {
@@ -38,7 +38,8 @@ const Login = () => {
                 </FormGroup>
                 <Button className="btn secondary__btn auth__btn" type='submit'>Login</Button>
               </Form>
-              <p>Don't have an account?<Link to='/register'><b>Create</b></Link></p>
+              <p>Don't have an account?<Link to='/admin-register'><b>Create</b></Link></p>
+              <p><Link to='/forgot-password'><b>Forgot Password</b></Link></p>
             </div>
           </div>
         </Col>

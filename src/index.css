@@ -2,7 +2,14 @@
 
 :root{
   /* --orange: linear-gradient(90deg,#c7c5f4, #776bcc) */
-  --orange:#db4744;
+  /* --orange:#db4744; */
+  /* --orange:#1da1f2; */
+  --orange:#1d4ed8cc;
+  /* --orange:#ec4899; */
+  /* --orange:#a855f7; */
+
+
+
   /* background: linear-gradient(90deg,#c7c5f4, #776bcc) */
 }
 *{
