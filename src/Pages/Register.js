@@ -3,7 +3,6 @@ import { Container,Row,Col,Form,FormGroup,Button } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import './login.css'
 import registerImg from '../Asset/register1.png'
-import userIcon from '../Asset/user.png'
 
 const Register = () => {
   const [credentials,setCredentials]=useState({
